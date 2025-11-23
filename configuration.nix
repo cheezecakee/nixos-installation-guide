@@ -50,7 +50,7 @@
 
   security.sudo.wheelNeedsPassword = false;
 
-  users.users.default = {
+  users.users.new = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
     initialPassword = null;
